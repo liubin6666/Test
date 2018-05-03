@@ -57,6 +57,9 @@ class Testcase(unittest.TestCase):
         print(results)
         self.assertEqual(r.status_code, improper_requests)
         self.assertEqual(results["errcode"], error)
+    def test007(self):
+        pass
+
 
     def tearDown(self):
         pass
