@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0df6de4-d3bf-4b3c-8263-d3f9fd792358" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="test_01.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+            <state relative-caret-position="715">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
               </folding>
@@ -29,8 +30,8 @@
       <file leaf-file-name="test_02.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="424">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <element signature="e#17#32#0" expanded="true" />
               </folding>
@@ -50,8 +51,17 @@
       <file leaf-file-name="run_all_case.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yinyu/run_all_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="375">
+              <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -68,7 +78,7 @@
       <file leaf-file-name="HTMLTestRunner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yinyu/HTMLTestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10191">
+            <state relative-caret-position="-10311">
               <caret line="92" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="e#3215#3230#0" expanded="true" />
@@ -130,11 +140,12 @@
         <option value="$PROJECT_DIR$/yinyu/Interface/tools.py" />
         <option value="$PROJECT_DIR$/yinyu/Interface/test_02.py" />
         <option value="$PROJECT_DIR$/yinyu/conf/conf.py" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/yinyu/Interface/test_01.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="810" />
@@ -208,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Run_test">
+  <component name="RunManager" selected="Python tests.Unittests for test_02.TestCase.testcase003">
     <configuration name="Run_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,17 +282,17 @@
       <option name="_new_target" value="&quot;test_01.Testcase.test004&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for yinyu.Interface.test_01.Testcase.test003" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_02.TestCase.testcase003" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yinyu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yinyu/Interface" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;yinyu.Interface.test_01.Testcase.test003&quot;" />
+      <option name="_new_target" value="&quot;test_02.TestCase.testcase003&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests in test_01.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -301,17 +312,17 @@
       <item itemvalue="Python.pageurl" />
       <item itemvalue="Python tests.Unittests in test_01.py" />
       <item itemvalue="Python.Run_test" />
-      <item itemvalue="Python tests.Unittests for yinyu.Interface.test_01.Testcase.test003" />
       <item itemvalue="Python tests.Unittests for test_01.Testcase.test001" />
       <item itemvalue="Python tests.Unittests for test_01.Testcase.test004" />
+      <item itemvalue="Python tests.Unittests for test_02.TestCase.testcase003" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_02.TestCase.testcase003" />
         <item itemvalue="Python.Run_test" />
         <item itemvalue="Python tests.Unittests for test_01.Testcase.test004" />
         <item itemvalue="Python tests.Unittests for test_01.Testcase.test001" />
         <item itemvalue="Python tests.Unittests in test_01.py" />
-        <item itemvalue="Python tests.Unittests for yinyu.Interface.test_01.Testcase.test003" />
       </list>
     </recent_temporary>
   </component>
@@ -329,9 +340,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_testyinyu_py - 2018.05.02 at 19h 14m 25s.xml">
-      <configuration name="Unittests in testyinyu.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_testyinyu_Testcase - 2018.05.02 at 19h 29m 27s.xml">
       <configuration name="Unittests for testyinyu.Testcase" configurationId="tests" />
     </history-entry>
@@ -359,15 +367,18 @@
     <history-entry file="Unittests_for_test_01_Testcase_test004 - 2018.05.03 at 14h 52m 23s.xml">
       <configuration name="Unittests for test_01.Testcase.test004" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_02_TestCase_testcase003 - 2018.05.03 at 17h 57m 54s.xml">
+      <configuration name="Unittests for test_02.TestCase.testcase003" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22638889" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.35" side_tool="true" weight="0.39976415" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65" weight="0.34106413" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65" visible="true" weight="0.37146226" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -414,13 +425,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yinyu/report/result_2018-05-03-14_58_35.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yinyu/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1380">
@@ -527,19 +531,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <element signature="e#17#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yinyu/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10191">
+        <state relative-caret-position="-10311">
           <caret line="92" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="e#3215#3230#0" expanded="true" />
@@ -547,17 +541,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yinyu/run_all_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        <state relative-caret-position="375">
+          <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#17#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        <state relative-caret-position="715">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#16#31#0" expanded="true" />
           </folding>
