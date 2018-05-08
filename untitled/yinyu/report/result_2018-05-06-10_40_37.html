@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>接口自动化测试报告,测试结果如下：</h1>
-<p class='attribute'><strong>Start Time:</strong> 2018-05-03 14:55:31</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:01.485775</p>
-<p class='attribute'><strong>Status:</strong> Pass 9 Failure 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2018-05-06 10:40:37</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:04.473997</p>
+<p class='attribute'><strong>Status:</strong> Pass 10</p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -221,11 +221,11 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='failClass'>
+<tr class='passClass'>
     <td>Interface.test_01.Testcase</td>
     <td>6</td>
-    <td>5</td>
-    <td>1</td>
+    <td>6</td>
+    <td>0</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c1',6)">Detail</a></td>
 </tr>
@@ -278,30 +278,22 @@ pt1.2:
     </td>
 </tr>
 
-<tr id='ft1.3' class='none'>
-    <td class='failCase'><div class='testcase'>test003</div></td>
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test003</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
-        fail</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        pass</a>
 
-    <div id='div_ft1.3' class="popup_window">
+    <div id='div_pt1.3' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.3: Traceback (most recent call last):
-  File "/Users/liubin/PycharmProjects/untitled/yinyu/Interface/test_01.py", line 36, in test003
-    self.assertEqual(r.status_code,200)
-AssertionError: 201 != 200
-Traceback (most recent call last):
-  File "/Users/liubin/PycharmProjects/untitled/yinyu/Interface/test_01.py", line 36, in test003
-    self.assertEqual(r.status_code,200)
-AssertionError: 201 != 200
-
+pt1.3: 
 
         </pre>
     </div>
@@ -490,8 +482,8 @@ pt2.4:
 <tr id='total_row'>
     <td>Total</td>
     <td>10</td>
-    <td>9</td>
-    <td>1</td>
+    <td>10</td>
+    <td>0</td>
     <td>0</td>
     <td>&nbsp;</td>
 </tr>
