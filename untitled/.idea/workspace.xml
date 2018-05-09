@@ -4,6 +4,8 @@
     <list default="true" id="c0df6de4-d3bf-4b3c-8263-d3f9fd792358" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yinyu/Interface/test_songs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yinyu/Interface/test_yuliao_login.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +17,11 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/yinyu" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_01.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_01.py">
+      <file leaf-file-name="test_yuliao_login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_yuliao_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="555">
+              <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
               </folding>
@@ -27,13 +29,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_02.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_02.py">
+      <file leaf-file-name="test_songs.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_songs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="31" column="88" lean-forward="true" selection-start-line="31" selection-start-column="88" selection-end-line="31" selection-end-column="88" />
+            <state relative-caret-position="420">
+              <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
               <folding>
-                <element signature="e#17#32#0" expanded="true" />
+                <element signature="e#16#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,8 +44,8 @@
       <file leaf-file-name="conf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yinyu/conf/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="90">
+              <caret line="6" column="174" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="174" />
             </state>
           </provider>
         </entry>
@@ -51,16 +53,21 @@
       <file leaf-file-name="run_all_case.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yinyu/run_all_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="336">
+              <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result_2018-05-09-21_35_08.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yinyu/report/result_2018-05-09-21_35_08.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="result_2018-05-06-10_40_37.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yinyu/report/result_2018-05-06-10_40_37.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="855">
               <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
             </state>
           </provider>
@@ -78,7 +85,7 @@
       <file leaf-file-name="HTMLTestRunner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yinyu/HTMLTestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-149">
+            <state relative-caret-position="1380">
               <caret line="92" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="e#3215#3230#0" expanded="true" />
@@ -87,11 +94,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tools.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tools.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yinyu/Interface/tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="225">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="e#15#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,11 +147,14 @@
         <option value="$PROJECT_DIR$/yinyu/Run_test.py" />
         <option value="$PROJECT_DIR$/yinyu/test_01.py" />
         <option value="$PROJECT_DIR$/yinyu/run_all_case.py" />
-        <option value="$PROJECT_DIR$/yinyu/conf/conf.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/yinyu/Interface/test_01.py" />
-        <option value="$PROJECT_DIR$/yinyu/Interface/tools.py" />
         <option value="$PROJECT_DIR$/yinyu/Interface/test_02.py" />
+        <option value="$PROJECT_DIR$/yinyu/Interface/test_01.py" />
+        <option value="$PROJECT_DIR$/yinyu/Interface/test_yuliao.py" />
+        <option value="$PROJECT_DIR$/yinyu/Interface/tools.py" />
+        <option value="$PROJECT_DIR$/yinyu/conf/conf.py" />
+        <option value="$PROJECT_DIR$/yinyu/Interface/test_yuliao_login.py" />
+        <option value="$PROJECT_DIR$/yinyu/Interface/test_songs.py" />
       </list>
     </option>
   </component>
@@ -218,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_all_case">
+  <component name="RunManager" selected="Python tests.Unittests for test_songs.TestCase.test003">
     <configuration name="pageurl" type="PythonConfigurationType" factoryName="Python">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,25 +268,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yinyu/Interface" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yinyu/Interface/tools.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Unittests for test_01.Testcase.test002" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_songs.TestCase.test001" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,10 +278,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_01.Testcase.test002&quot;" />
+      <option name="_new_target" value="&quot;test_songs.TestCase.test001&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_01.Testcase.test003" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_songs.TestCase.test002" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,10 +291,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_01.Testcase.test003&quot;" />
+      <option name="_new_target" value="&quot;test_songs.TestCase.test002&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_01.Testcase.test007" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_songs.TestCase.test003" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,24 +304,37 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_01.Testcase.test007&quot;" />
+      <option name="_new_target" value="&quot;test_songs.TestCase.test003&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_yuliao_login.TestCase.test007" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yinyu/Interface" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_yuliao_login.TestCase.test007&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list>
       <item itemvalue="Python.pageurl" />
-      <item itemvalue="Python tests.Unittests for test_01.Testcase.test003" />
-      <item itemvalue="Python.tools" />
-      <item itemvalue="Python tests.Unittests for test_01.Testcase.test007" />
-      <item itemvalue="Python tests.Unittests for test_01.Testcase.test002" />
+      <item itemvalue="Python tests.Unittests for test_yuliao_login.TestCase.test007" />
       <item itemvalue="Python.run_all_case" />
+      <item itemvalue="Python tests.Unittests for test_songs.TestCase.test001" />
+      <item itemvalue="Python tests.Unittests for test_songs.TestCase.test002" />
+      <item itemvalue="Python tests.Unittests for test_songs.TestCase.test003" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_songs.TestCase.test003" />
+        <item itemvalue="Python tests.Unittests for test_songs.TestCase.test002" />
+        <item itemvalue="Python tests.Unittests for test_songs.TestCase.test001" />
         <item itemvalue="Python.run_all_case" />
-        <item itemvalue="Python tests.Unittests for test_01.Testcase.test003" />
-        <item itemvalue="Python tests.Unittests for test_01.Testcase.test007" />
-        <item itemvalue="Python.tools" />
-        <item itemvalue="Python tests.Unittests for test_01.Testcase.test002" />
+        <item itemvalue="Python tests.Unittests for test_yuliao_login.TestCase.test007" />
       </list>
     </recent_temporary>
   </component>
@@ -344,35 +352,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_01_Testcase_test007 - 2018.05.08 at 16h 05m 40s.xml">
-      <configuration name="Unittests for test_01.Testcase.test007" configurationId="tests" />
+    <history-entry file="Unittests_for_test_yuliao_login_TestCase_test007 - 2018.05.09 at 21h 31m 56s.xml">
+      <configuration name="Unittests for test_yuliao_login.TestCase.test007" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_01_Testcase_test003 - 2018.05.08 at 16h 07m 20s.xml">
-      <configuration name="Unittests for test_01.Testcase.test003" configurationId="tests" />
+    <history-entry file="Unittests_for_test_yuliao_login_TestCase_test007 - 2018.05.09 at 21h 32m 08s.xml">
+      <configuration name="Unittests for test_yuliao_login.TestCase.test007" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_01_Testcase_test007 - 2018.05.08 at 16h 08m 18s.xml">
-      <configuration name="Unittests for test_01.Testcase.test007" configurationId="tests" />
+    <history-entry file="Unittests_for_test_yuliao_login_TestCase_test006 - 2018.05.09 at 21h 32m 11s.xml">
+      <configuration name="Unittests for test_yuliao_login.TestCase.test006" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_01_Testcase_test007 - 2018.05.08 at 16h 08m 55s.xml">
-      <configuration name="Unittests for test_01.Testcase.test007" configurationId="tests" />
+    <history-entry file="Unittests_for_test_yuliao_login_TestCase_test007 - 2018.05.09 at 21h 33m 17s.xml">
+      <configuration name="Unittests for test_yuliao_login.TestCase.test007" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_01_Testcase_test007 - 2018.05.08 at 16h 09m 06s.xml">
-      <configuration name="Unittests for test_01.Testcase.test007" configurationId="tests" />
+    <history-entry file="Unittests_for_test_yuliao_login_TestCase_test007 - 2018.05.09 at 21h 33m 46s.xml">
+      <configuration name="Unittests for test_yuliao_login.TestCase.test007" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_01_Testcase_test007 - 2018.05.08 at 16h 10m 04s.xml">
-      <configuration name="Unittests for test_01.Testcase.test007" configurationId="tests" />
+    <history-entry file="Unittests_for_test_songs_TestCase_test001 - 2018.05.09 at 21h 41m 39s.xml">
+      <configuration name="Unittests for test_songs.TestCase.test001" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_01_Testcase_test007 - 2018.05.08 at 16h 11m 39s.xml">
-      <configuration name="Unittests for test_01.Testcase.test007" configurationId="tests" />
+    <history-entry file="Unittests_for_test_songs_TestCase_test002 - 2018.05.09 at 21h 59m 07s.xml">
+      <configuration name="Unittests for test_songs.TestCase.test002" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_01_Testcase_test007 - 2018.05.08 at 16h 11m 46s.xml">
-      <configuration name="Unittests for test_01.Testcase.test007" configurationId="tests" />
+    <history-entry file="Unittests_for_test_songs_TestCase_test003 - 2018.05.09 at 22h 09m 05s.xml">
+      <configuration name="Unittests for test_songs.TestCase.test003" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_01_Testcase_test003 - 2018.05.08 at 16h 12m 06s.xml">
-      <configuration name="Unittests for test_01.Testcase.test003" configurationId="tests" />
+    <history-entry file="Unittests_for_test_songs_TestCase_test003 - 2018.05.09 at 22h 10m 10s.xml">
+      <configuration name="Unittests for test_songs.TestCase.test003" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_01_Testcase_test003 - 2018.05.08 at 16h 12m 41s.xml">
-      <configuration name="Unittests for test_01.Testcase.test003" configurationId="tests" />
+    <history-entry file="Unittests_for_test_songs_TestCase_test003 - 2018.05.09 at 22h 10m 22s.xml">
+      <configuration name="Unittests for test_songs.TestCase.test003" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -400,21 +408,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22638889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65" visible="true" weight="0.37789905" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4923611" weight="0.3972789" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.35" side_tool="true" weight="0.39976415" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -425,25 +433,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yinyu/Interface/tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chongdingdahui/gongju.py" />
     <entry file="file://$PROJECT_DIR$/chongdingdahui/testcddh.py" />
     <entry file="file://$PROJECT_DIR$/chongdingdahui/cddhalone.py" />
     <entry file="file://$USER_HOME$/venv/untitled/lib/python3.7/site-packages/requests/api.py" />
@@ -495,9 +488,19 @@
     <entry file="file://$PROJECT_DIR$/yinyu/report/result_2018-05-03-10_43_31.html" />
     <entry file="file://$PROJECT_DIR$/yinyu/report/result_2018-05-03-14_33_49.html" />
     <entry file="file://$PROJECT_DIR$/yinyu/report/result_2018-05-03-14_58_35.html" />
+    <entry file="file://$PROJECT_DIR$/yinyu/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#3215#3230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yinyu/report/result_2018-05-06-10_40_37.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="855">
           <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
         </state>
       </provider>
@@ -509,30 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yinyu/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-          <folding>
-            <element signature="e#3215#3230#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yinyu/conf/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yinyu/run_all_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -540,30 +519,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="31" column="88" lean-forward="true" selection-start-line="31" selection-start-column="88" selection-end-line="31" selection-end-column="88" />
-          <folding>
-            <element signature="e#17#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="-363">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#16#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#17#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yinyu/Interface/tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="225">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#15#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yinyu/conf/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="174" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yinyu/run_all_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yinyu/report/result_2018-05-09-21_35_08.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_yuliao_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yinyu/Interface/test_songs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
