@@ -1,9 +1,8 @@
 #coding = utf-8
 import unittest
-import requests
 import json
 from yinyu.conf import conf
-from yinyu.Interface.tools import tools
+from yinyu.Interface.case import Case
 class TestCase(unittest.TestCase):
     def setUp(self):
         pass
@@ -11,55 +10,49 @@ class TestCase(unittest.TestCase):
         pass
     def test001(self):
         #语料发送登录验证码，正确手机号
-        data = {"phone":conf.phone1}
-        r= requests.post(url = conf.domainname + "/v1/sms/verification_code",headers=conf.headers_yuliao,data=data)
-        results = json.loads(r.text)
+        Case().case01()
+        results = json.loads(Case().case01().text)
         print(results)
-        self.assertEqual(r.status_code,conf.success)
+        self.assertEqual(Case().case01().status_code,conf.success)
     def test002(self):
         #语料发送登录验证码，空手机号
-        r= requests.post(url =conf.domainname + "/v1/sms/verification_code",headers=conf.headers_yuliao,data ={"phone":""})
-        results = json.loads(r.text)
+        Case().case02()
+        results = json.loads(Case().case02().text)
         print(results)
-        self.assertEqual(r.status_code,conf.improper_requests)
+        self.assertEqual(Case().case02().status_code,conf.improper_requests)
         self.assertEqual(results["errcode"],conf.error)
     def test003(self):
         #语料发送登录验证码，错误手机号
-        data = {"phone":tools().random_digit()}
-        r= requests.post(url= conf.domainname + "/v1/sms/verification_code",headers=conf.headers_yuliao,data= data)
-        results = json.loads(r.text)
+        Case().case03()
+        results = json.loads(Case().case03().text)
         print(results)
-        self.assertEqual(r.status_code,conf.improper_requests)
+        self.assertEqual(Case().case03().status_code,conf.improper_requests)
         self.assertEqual(results["errcode"],conf.error)
     def test004(self):
         #语料登录接口，空手机号，空验证码
-        data = {"phone":"","verification_code":""}
-        r= requests.post(url= conf.domainname + "/v1/parttime/login",headers=conf.headers_yuliao,data= data)
-        results = json.loads(r.text)
+        Case().case04()
+        results = json.loads(Case().case04().text)
         print(results)
-        self.assertEqual(r.status_code,conf.improper_requests)
+        self.assertEqual(Case().case04().status_code,conf.improper_requests)
         self.assertEqual(results["errcode"],conf.error)
     def test005(self):
         #语料登录接口，正确手机号，空验证码
-        r = requests.post(url=conf.domainname + "/v1/parttime/login", headers=conf.headers_yuliao,
-                          data={"phone": conf.phone2, "verification_code": ""})
-        results = json.loads(r.text)
+        Case().case05()
+        results = json.loads(Case().case05().text)
         print(results)
-        self.assertEqual(r.status_code, conf.improper_requests)
+        self.assertEqual(Case().case05().status_code, conf.improper_requests)
         self.assertEqual(results["errcode"],conf.error)
     def test006(self):
         #语料登录接口，错误手机号，空验证码
-        r = requests.post(url=conf.domainname + "/v1/parttime/login",headers = conf.headers_yuliao,
-                          data = {"phone":tools().random_digit(),"verification_code":""})
-        results = json.loads(r.text)
+        Case().case06()
+        results = json.loads(Case().case06().text)
         print(results)
-        self.assertEqual(r.status_code,conf.improper_requests)
+        self.assertEqual(Case().case06().status_code,conf.improper_requests)
         self.assertEqual(results["errcode"],conf.error)
     def test007(self):
         #语料登录接口，正确手机号，错误验证码
-        r= requests.post(url=conf.domainname + "/v1/parttime/login",headers = conf.headers_yuliao,
-                         data = {"phone":conf.phone1,"verification_code":tools().random_digit()})
-        results = json.loads(r.text)
+        Case().case07()
+        results = json.loads(Case().case07().text)
         print(results)
-        self.assertEqual(r.status_code,401)
+        self.assertEqual(Case().case07().status_code,401)
         self.assertEqual(results["errcode"],10201)
