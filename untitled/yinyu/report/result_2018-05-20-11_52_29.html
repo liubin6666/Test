@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>接口自动化测试报告,测试结果如下：</h1>
-<p class='attribute'><strong>Start Time:</strong> 2018-05-10 20:25:36</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:03.253918</p>
-<p class='attribute'><strong>Status:</strong> Pass 10</p>
+<p class='attribute'><strong>Start Time:</strong> 2018-05-20 11:52:29</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:01.660265</p>
+<p class='attribute'><strong>Status:</strong> Pass 9 Failure 1</p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -302,11 +302,11 @@ pt1.3:
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>Interface.test_yuliao_login.TestCase</td>
     <td>7</td>
-    <td>7</td>
-    <td>0</td>
+    <td>6</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c2',7)">Detail</a></td>
 </tr>
@@ -383,22 +383,30 @@ pt2.3:
     </td>
 </tr>
 
-<tr id='pt2.4' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test004</div></td>
+<tr id='ft2.4' class='none'>
+    <td class='failCase'><div class='testcase'>test004</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.4')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.4')" >
+        fail</a>
 
-    <div id='div_pt2.4' class="popup_window">
+    <div id='div_ft2.4' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.4').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.4').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt2.4: 
+ft2.4: Traceback (most recent call last):
+  File "/Users/liubin/Documents/GitHub/Test/untitled/yinyu/Interface/test_yuliao_login.py", line 37, in test004
+    self.assertEqual(results["errcode"],200)
+AssertionError: 10000 != 200
+Traceback (most recent call last):
+  File "/Users/liubin/Documents/GitHub/Test/untitled/yinyu/Interface/test_yuliao_login.py", line 37, in test004
+    self.assertEqual(results["errcode"],200)
+AssertionError: 10000 != 200
+
 
         </pre>
     </div>
@@ -482,8 +490,8 @@ pt2.7:
 <tr id='total_row'>
     <td>Total</td>
     <td>10</td>
-    <td>10</td>
-    <td>0</td>
+    <td>9</td>
+    <td>1</td>
     <td>0</td>
     <td>&nbsp;</td>
 </tr>

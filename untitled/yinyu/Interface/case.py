@@ -43,10 +43,10 @@ class Case():
         r = requests.get(url=conf.domainname + "/v1/parttime/songs", headers=conf.headers_yuliao)
         return r
     def case09(self):
-        # 搜索songs接口,可搜索的歌曲
+    # 搜索songs接口,可搜索的歌曲
         r = requests.get(url=conf.domainname + "/v1/parttime/songs?q=%e5%85%84%e5%bc%9f", headers=conf.headers_yuliao)
         return r
     def case10(self):
-        # 搜索songs接口，搜索不到的歌曲
+    # 搜索songs接口，搜索不到的歌曲
         r = requests.get(url=conf.domainname + "/v1/parttime/songs?q=爱要去哪里", headers=conf.headers_yuliao)
         return r
